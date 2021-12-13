@@ -1,0 +1,540 @@
+// =================
+// Decision Tree "Hypothesis" Best Feature
+// =================
+
+=== Train using Folds
+Folds Number: 1
+              precision    recall  f1-score   support
+
+           0       0.97      0.59      0.73     31671
+           1       0.66      0.98      0.79     25336
+
+    accuracy                           0.76     57007
+   macro avg       0.81      0.78      0.76     57007
+weighted avg       0.83      0.76      0.76     57007
+
+F1: 0.7850081718792149
+Folds Number: 2
+              precision    recall  f1-score   support
+
+           0       0.97      0.59      0.74     31671
+           1       0.66      0.98      0.79     25336
+
+    accuracy                           0.76     57007
+   macro avg       0.81      0.78      0.76     57007
+weighted avg       0.83      0.76      0.76     57007
+
+F1: 0.7860246772607605
+Folds Number: 3
+              precision    recall  f1-score   support
+
+           0       0.97      0.59      0.73     31671
+           1       0.66      0.98      0.79     25336
+
+    accuracy                           0.76     57007
+   macro avg       0.81      0.78      0.76     57007
+weighted avg       0.83      0.76      0.76     57007
+
+F1: 0.7857233381914962
+Folds Number: 4
+              precision    recall  f1-score   support
+
+           0       0.97      0.59      0.74     31670
+           1       0.66      0.98      0.79     25337
+
+    accuracy                           0.77     57007
+   macro avg       0.82      0.79      0.76     57007
+weighted avg       0.83      0.77      0.76     57007
+
+F1: 0.7876333841463415
+Folds Number: 5
+              precision    recall  f1-score   support
+
+           0       0.97      0.59      0.73     31670
+           1       0.65      0.98      0.78     25337
+
+    accuracy                           0.76     57007
+   macro avg       0.81      0.78      0.76     57007
+weighted avg       0.83      0.76      0.75     57007
+
+F1: 0.7836144425809309
+F1 rata-rata model: 0.7856008028117488
+
+
+
+=== Checking on Data Testing
+              precision    recall  f1-score   support
+
+           0       0.99      0.59      0.74     41778
+           1       0.25      0.98      0.40      5861
+
+    accuracy                           0.64     47639
+   macro avg       0.62      0.78      0.57     47639
+weighted avg       0.90      0.64      0.70     47639
+
+// =================
+// ANN "Hypothesis" Best Feature
+// =================
+
+Folds Number: 1
+Epoch 1/5
+11402/11402 [==============================] - 26s 2ms/step - loss: 0.4594 - accuracy: 0.7558 - categorical_accuracy: 0.7558 - precision_6: 0.7521 - recall_2: 0.7612
+Epoch 2/5
+11402/11402 [==============================] - 24s 2ms/step - loss: 0.4520 - accuracy: 0.7629 - categorical_accuracy: 0.7629 - precision_6: 0.7629 - recall_2: 0.7629
+Epoch 3/5
+11402/11402 [==============================] - 24s 2ms/step - loss: 0.4520 - accuracy: 0.7629 - categorical_accuracy: 0.7629 - precision_6: 0.7629 - recall_2: 0.7629
+Epoch 4/5
+11402/11402 [==============================] - 24s 2ms/step - loss: 0.4520 - accuracy: 0.7629 - categorical_accuracy: 0.7629 - precision_6: 0.7629 - recall_2: 0.7629
+Epoch 5/5
+11402/11402 [==============================] - 23s 2ms/step - loss: 0.4520 - accuracy: 0.7629 - categorical_accuracy: 0.7629 - precision_6: 0.7629 - recall_2: 0.7629
+              precision    recall  f1-score   support
+
+           0       0.97      0.59      0.73     31671
+           1       0.66      0.98      0.79     25336
+
+    accuracy                           0.76     57007
+   macro avg       0.81      0.78      0.76     57007
+weighted avg       0.83      0.76      0.76     57007
+
+F1: 0.7850081718792149
+Folds Number: 2
+Epoch 1/5
+11402/11402 [==============================] - 85s 2ms/step - loss: 0.4540 - accuracy: 0.7622 - categorical_accuracy: 0.7622 - precision_7: 0.7626 - recall_3: 0.7612
+Epoch 2/5
+11402/11402 [==============================] - 26s 2ms/step - loss: 0.4525 - accuracy: 0.7626 - categorical_accuracy: 0.7626 - precision_7: 0.7626 - recall_3: 0.7626
+Epoch 3/5
+11402/11402 [==============================] - 27s 2ms/step - loss: 0.4524 - accuracy: 0.7626 - categorical_accuracy: 0.7626 - precision_7: 0.7626 - recall_3: 0.7626
+Epoch 4/5
+11402/11402 [==============================] - 23s 2ms/step - loss: 0.4524 - accuracy: 0.7626 - categorical_accuracy: 0.7626 - precision_7: 0.7626 - recall_3: 0.7626
+Epoch 5/5
+11402/11402 [==============================] - 23s 2ms/step - loss: 0.4524 - accuracy: 0.7626 - categorical_accuracy: 0.7626 - precision_7: 0.7626 - recall_3: 0.7626
+              precision    recall  f1-score   support
+
+           0       0.97      0.59      0.74     31671
+           1       0.66      0.98      0.79     25336
+
+    accuracy                           0.76     57007
+   macro avg       0.81      0.78      0.76     57007
+weighted avg       0.83      0.76      0.76     57007
+
+F1: 0.7860246772607605
+Folds Number: 3
+Epoch 1/5
+11402/11402 [==============================] - 25s 2ms/step - loss: 0.4571 - accuracy: 0.7579 - categorical_accuracy: 0.7579 - precision_8: 0.7576 - recall_4: 0.7581
+Epoch 2/5
+11402/11402 [==============================] - 23s 2ms/step - loss: 0.4521 - accuracy: 0.7628 - categorical_accuracy: 0.7628 - precision_8: 0.7628 - recall_4: 0.7628
+Epoch 3/5
+11402/11402 [==============================] - 23s 2ms/step - loss: 0.4521 - accuracy: 0.7628 - categorical_accuracy: 0.7628 - precision_8: 0.7628 - recall_4: 0.7628
+Epoch 4/5
+11402/11402 [==============================] - 23s 2ms/step - loss: 0.4521 - accuracy: 0.7628 - categorical_accuracy: 0.7628 - precision_8: 0.7628 - recall_4: 0.7628
+Epoch 5/5
+11402/11402 [==============================] - 23s 2ms/step - loss: 0.4521 - accuracy: 0.7628 - categorical_accuracy: 0.7628 - precision_8: 0.7628 - recall_4: 0.7628
+              precision    recall  f1-score   support
+
+           0       0.97      0.59      0.73     31671
+           1       0.66      0.98      0.79     25336
+
+    accuracy                           0.76     57007
+   macro avg       0.81      0.78      0.76     57007
+weighted avg       0.83      0.76      0.76     57007
+
+F1: 0.7857233381914962
+Folds Number: 4
+Epoch 1/5
+11402/11402 [==============================] - 24s 2ms/step - loss: 0.4571 - accuracy: 0.7609 - categorical_accuracy: 0.7609 - precision_9: 0.7623 - recall_5: 0.7575
+Epoch 2/5
+11402/11402 [==============================] - 21s 2ms/step - loss: 0.4531 - accuracy: 0.7621 - categorical_accuracy: 0.7621 - precision_9: 0.7621 - recall_5: 0.7621
+Epoch 3/5
+11402/11402 [==============================] - 22s 2ms/step - loss: 0.4531 - accuracy: 0.7621 - categorical_accuracy: 0.7621 - precision_9: 0.7621 - recall_5: 0.7621
+Epoch 4/5
+11402/11402 [==============================] - 24s 2ms/step - loss: 0.4530 - accuracy: 0.7621 - categorical_accuracy: 0.7621 - precision_9: 0.7621 - recall_5: 0.7621
+Epoch 5/5
+11402/11402 [==============================] - 24s 2ms/step - loss: 0.4530 - accuracy: 0.7621 - categorical_accuracy: 0.7621 - precision_9: 0.7621 - recall_5: 0.7621
+              precision    recall  f1-score   support
+
+           0       0.97      0.59      0.74     31670
+           1       0.66      0.98      0.79     25337
+
+    accuracy                           0.77     57007
+   macro avg       0.82      0.79      0.76     57007
+weighted avg       0.83      0.77      0.76     57007
+
+F1: 0.7876333841463415
+Folds Number: 5
+Epoch 1/5
+11402/11402 [==============================] - 24s 2ms/step - loss: 0.4549 - accuracy: 0.7620 - categorical_accuracy: 0.7620 - precision_10: 0.7595 - recall_6: 0.7665
+Epoch 2/5
+11402/11402 [==============================] - 21s 2ms/step - loss: 0.4516 - accuracy: 0.7634 - categorical_accuracy: 0.7634 - precision_10: 0.7634 - recall_6: 0.7634
+Epoch 3/5
+11402/11402 [==============================] - 21s 2ms/step - loss: 0.4516 - accuracy: 0.7634 - categorical_accuracy: 0.7634 - precision_10: 0.7634 - recall_6: 0.7634
+Epoch 4/5
+11402/11402 [==============================] - 22s 2ms/step - loss: 0.4516 - accuracy: 0.7634 - categorical_accuracy: 0.7634 - precision_10: 0.7634 - recall_6: 0.7634
+Epoch 5/5
+11402/11402 [==============================] - 23s 2ms/step - loss: 0.4516 - accuracy: 0.7634 - categorical_accuracy: 0.7634 - precision_10: 0.7634 - recall_6: 0.7634
+              precision    recall  f1-score   support
+
+           0       0.97      0.59      0.73     31670
+           1       0.65      0.98      0.78     25337
+
+    accuracy                           0.76     57007
+   macro avg       0.81      0.78      0.76     57007
+weighted avg       0.83      0.76      0.75     57007
+
+F1: 0.7836144425809309
+F1 rata-rata model: 0.7856008028117488
+
+
+
+=== Checking on Data Testing
+              precision    recall  f1-score   support
+
+           0       0.99      0.59      0.74     41778
+           1       0.25      0.98      0.40      5861
+
+    accuracy                           0.64     47639
+   macro avg       0.62      0.78      0.57     47639
+weighted avg       0.90      0.64      0.70     47639
+
+// =================
+// Gaussian Naive Bayes "Hypothesis" Best Feature
+// =================
+
+Folds Number: 1
+              precision    recall  f1-score   support
+
+           0       0.97      0.59      0.73     31671
+           1       0.66      0.98      0.79     25336
+
+    accuracy                           0.76     57007
+   macro avg       0.81      0.78      0.76     57007
+weighted avg       0.83      0.76      0.76     57007
+
+F1: 0.7850081718792149
+Folds Number: 2
+              precision    recall  f1-score   support
+
+           0       0.97      0.59      0.74     31671
+           1       0.66      0.98      0.79     25336
+
+    accuracy                           0.76     57007
+   macro avg       0.81      0.78      0.76     57007
+weighted avg       0.83      0.76      0.76     57007
+
+F1: 0.7860246772607605
+Folds Number: 3
+              precision    recall  f1-score   support
+
+           0       0.97      0.59      0.73     31671
+           1       0.66      0.98      0.79     25336
+
+    accuracy                           0.76     57007
+   macro avg       0.81      0.78      0.76     57007
+weighted avg       0.83      0.76      0.76     57007
+
+F1: 0.7857233381914962
+Folds Number: 4
+              precision    recall  f1-score   support
+
+           0       0.97      0.59      0.74     31670
+           1       0.66      0.98      0.79     25337
+
+    accuracy                           0.77     57007
+   macro avg       0.82      0.79      0.76     57007
+weighted avg       0.83      0.77      0.76     57007
+
+F1: 0.7876333841463415
+Folds Number: 5
+              precision    recall  f1-score   support
+
+           0       0.97      0.59      0.73     31670
+           1       0.65      0.98      0.78     25337
+
+    accuracy                           0.76     57007
+   macro avg       0.81      0.78      0.76     57007
+weighted avg       0.83      0.76      0.75     57007
+
+F1: 0.7836144425809309
+F1 rata-rata model: 0.7856008028117488
+
+
+
+=== Checking on Data Testing
+              precision    recall  f1-score   support
+
+           0       0.99      0.59      0.74     41778
+           1       0.25      0.98      0.40      5861
+
+    accuracy                           0.64     47639
+   macro avg       0.62      0.78      0.57     47639
+weighted avg       0.90      0.64      0.70     47639
+
+// =================
+// Decision Tree All Feature
+// =================
+
+=== Train using Folds
+Folds Number: 1
+              precision    recall  f1-score   support
+
+           0       0.90      0.90      0.90     31671
+           1       0.87      0.87      0.87     25336
+
+    accuracy                           0.88     57007
+   macro avg       0.88      0.88      0.88     57007
+weighted avg       0.88      0.88      0.88     57007
+
+F1: 0.8700685513344791
+Folds Number: 2
+              precision    recall  f1-score   support
+
+           0       0.89      0.90      0.89     31671
+           1       0.87      0.87      0.87     25336
+
+    accuracy                           0.88     57007
+   macro avg       0.88      0.88      0.88     57007
+weighted avg       0.88      0.88      0.88     57007
+
+F1: 0.8676022929432695
+Folds Number: 3
+              precision    recall  f1-score   support
+
+           0       0.89      0.89      0.89     31671
+           1       0.87      0.87      0.87     25336
+
+    accuracy                           0.88     57007
+   macro avg       0.88      0.88      0.88     57007
+weighted avg       0.88      0.88      0.88     57007
+
+F1: 0.8666060989097805
+Folds Number: 4
+              precision    recall  f1-score   support
+
+           0       0.89      0.90      0.90     31670
+           1       0.87      0.86      0.87     25337
+
+    accuracy                           0.88     57007
+   macro avg       0.88      0.88      0.88     57007
+weighted avg       0.88      0.88      0.88     57007
+
+F1: 0.8675291689816653
+Folds Number: 5
+              precision    recall  f1-score   support
+
+           0       0.89      0.89      0.89     31670
+           1       0.87      0.87      0.87     25337
+
+    accuracy                           0.88     57007
+   macro avg       0.88      0.88      0.88     57007
+weighted avg       0.88      0.88      0.88     57007
+
+F1: 0.866653488831785
+F1 rata-rata model: 0.8676919202001958
+
+
+
+=== Checking on Data Testing
+              precision    recall  f1-score   support
+
+           0       0.90      0.90      0.90     41778
+           1       0.29      0.30      0.30      5861
+
+    accuracy                           0.82     47639
+   macro avg       0.60      0.60      0.60     47639
+weighted avg       0.83      0.82      0.82     47639
+
+
+// =================
+// Gaussian Naive Bayes All Feature
+// =================
+
+Folds Number: 1
+              precision    recall  f1-score   support
+
+           0       0.90      0.65      0.76     31671
+           1       0.68      0.91      0.78     25336
+
+    accuracy                           0.77     57007
+   macro avg       0.79      0.78      0.77     57007
+weighted avg       0.80      0.77      0.77     57007
+
+F1: 0.7774681929571319
+Folds Number: 2
+              precision    recall  f1-score   support
+
+           0       0.86      0.68      0.76     31671
+           1       0.69      0.87      0.77     25336
+
+    accuracy                           0.76     57007
+   macro avg       0.78      0.77      0.76     57007
+weighted avg       0.79      0.76      0.76     57007
+
+F1: 0.7660012563690933
+Folds Number: 3
+              precision    recall  f1-score   support
+
+           0       0.93      0.61      0.74     31671
+           1       0.66      0.94      0.78     25336
+
+    accuracy                           0.76     57007
+   macro avg       0.79      0.78      0.76     57007
+weighted avg       0.81      0.76      0.76     57007
+
+F1: 0.7764958936253421
+Folds Number: 4
+              precision    recall  f1-score   support
+
+           0       0.94      0.60      0.74     31670
+           1       0.66      0.95      0.78     25337
+
+    accuracy                           0.76     57007
+   macro avg       0.80      0.78      0.76     57007
+weighted avg       0.81      0.76      0.75     57007
+
+F1: 0.7775606762801364
+Folds Number: 5
+              precision    recall  f1-score   support
+
+           0       0.85      0.70      0.77     31670
+           1       0.69      0.85      0.76     25337
+
+    accuracy                           0.77     57007
+   macro avg       0.77      0.77      0.77     57007
+weighted avg       0.78      0.77      0.77     57007
+
+F1: 0.762816761539962
+F1 rata-rata model: 0.7720685561543331
+
+
+
+=== Checking on Data Testing
+              precision    recall  f1-score   support
+
+           0       0.99      0.60      0.75     41778
+           1       0.25      0.95      0.39      5861
+
+    accuracy                           0.64     47639
+   macro avg       0.62      0.77      0.57     47639
+weighted avg       0.90      0.64      0.70     47639
+
+// =================
+// ANN All Feature
+// =================
+
+Folds Number: 1
+Epoch 1/5
+11402/11402 [==============================] - 32s 3ms/step - loss: 0.4289 - accuracy: 0.7852 - categorical_accuracy: 0.7852 - precision_11: 0.7843 - recall_7: 0.7838
+Epoch 2/5
+11402/11402 [==============================] - 25s 2ms/step - loss: 0.4198 - accuracy: 0.7905 - categorical_accuracy: 0.7905 - precision_11: 0.7901 - recall_7: 0.7907
+Epoch 3/5
+11402/11402 [==============================] - 25s 2ms/step - loss: 0.4179 - accuracy: 0.7905 - categorical_accuracy: 0.7905 - precision_11: 0.7903 - recall_7: 0.7905
+Epoch 4/5
+11402/11402 [==============================] - 25s 2ms/step - loss: 0.4165 - accuracy: 0.7920 - categorical_accuracy: 0.7920 - precision_11: 0.7918 - recall_7: 0.7921
+Epoch 5/5
+11402/11402 [==============================] - 24s 2ms/step - loss: 0.4151 - accuracy: 0.7927 - categorical_accuracy: 0.7927 - precision_11: 0.7926 - recall_7: 0.7929
+              precision    recall  f1-score   support
+
+           0       0.90      0.70      0.79     31671
+           1       0.71      0.91      0.80     25336
+
+    accuracy                           0.79     57007
+   macro avg       0.81      0.80      0.79     57007
+weighted avg       0.82      0.79      0.79     57007
+
+F1: 0.795239907288892
+Folds Number: 2
+Epoch 1/5
+11402/11402 [==============================] - 25s 2ms/step - loss: 0.4279 - accuracy: 0.7833 - categorical_accuracy: 0.7833 - precision_12: 0.7838 - recall_8: 0.7823
+Epoch 2/5
+11402/11402 [==============================] - 24s 2ms/step - loss: 0.4190 - accuracy: 0.7898 - categorical_accuracy: 0.7898 - precision_12: 0.7898 - recall_8: 0.7898
+Epoch 3/5
+11402/11402 [==============================] - 26s 2ms/step - loss: 0.4154 - accuracy: 0.7920 - categorical_accuracy: 0.7920 - precision_12: 0.7926 - recall_8: 0.7907
+Epoch 4/5
+11402/11402 [==============================] - 26s 2ms/step - loss: 0.4125 - accuracy: 0.7936 - categorical_accuracy: 0.7936 - precision_12: 0.7940 - recall_8: 0.7931
+Epoch 5/5
+11402/11402 [==============================] - 26s 2ms/step - loss: 0.4108 - accuracy: 0.7951 - categorical_accuracy: 0.7951 - precision_12: 0.7956 - recall_8: 0.7942
+              precision    recall  f1-score   support
+
+           0       0.90      0.71      0.79     31671
+           1       0.71      0.90      0.80     25336
+
+    accuracy                           0.80     57007
+   macro avg       0.81      0.81      0.80     57007
+weighted avg       0.82      0.80      0.80     57007
+
+F1: 0.7958519865696699
+Folds Number: 3
+Epoch 1/5
+11402/11402 [==============================] - 29s 2ms/step - loss: 0.4262 - accuracy: 0.7862 - categorical_accuracy: 0.7862 - precision_13: 0.7848 - recall_9: 0.7877
+Epoch 2/5
+11402/11402 [==============================] - 35s 3ms/step - loss: 0.4181 - accuracy: 0.7905 - categorical_accuracy: 0.7905 - precision_13: 0.7890 - recall_9: 0.7932
+Epoch 3/5
+11402/11402 [==============================] - 45s 4ms/step - loss: 0.4146 - accuracy: 0.7929 - categorical_accuracy: 0.7929 - precision_13: 0.7921 - recall_9: 0.7941
+Epoch 4/5
+11402/11402 [==============================] - 34s 3ms/step - loss: 0.4120 - accuracy: 0.7942 - categorical_accuracy: 0.7942 - precision_13: 0.7940 - recall_9: 0.7948
+Epoch 5/5
+11402/11402 [==============================] - 33s 3ms/step - loss: 0.4103 - accuracy: 0.7954 - categorical_accuracy: 0.7954 - precision_13: 0.7952 - recall_9: 0.7954
+              precision    recall  f1-score   support
+
+           0       0.90      0.71      0.79     31671
+           1       0.71      0.91      0.80     25336
+
+    accuracy                           0.79     57007
+   macro avg       0.81      0.81      0.79     57007
+weighted avg       0.82      0.79      0.79     57007
+
+F1: 0.7966384220030561
+Folds Number: 4
+Epoch 1/5
+11402/11402 [==============================] - 35s 3ms/step - loss: 0.4294 - accuracy: 0.7830 - categorical_accuracy: 0.7830 - precision_14: 0.7824 - recall_10: 0.7828
+Epoch 2/5
+11402/11402 [==============================] - 38s 3ms/step - loss: 0.4200 - accuracy: 0.7896 - categorical_accuracy: 0.7896 - precision_14: 0.7895 - recall_10: 0.7897
+Epoch 3/5
+11402/11402 [==============================] - 40s 3ms/step - loss: 0.4174 - accuracy: 0.7907 - categorical_accuracy: 0.7907 - precision_14: 0.7904 - recall_10: 0.7913
+Epoch 4/5
+11402/11402 [==============================] - 31s 3ms/step - loss: 0.4147 - accuracy: 0.7921 - categorical_accuracy: 0.7921 - precision_14: 0.7918 - recall_10: 0.7927
+Epoch 5/5
+11402/11402 [==============================] - 43s 4ms/step - loss: 0.4126 - accuracy: 0.7940 - categorical_accuracy: 0.7940 - precision_14: 0.7938 - recall_10: 0.7944
+              precision    recall  f1-score   support
+
+           0       0.87      0.74      0.80     31670
+           1       0.72      0.87      0.79     25337
+
+    accuracy                           0.79     57007
+   macro avg       0.80      0.80      0.79     57007
+weighted avg       0.81      0.79      0.79     57007
+
+F1: 0.7891102639718047
+Folds Number: 5
+Epoch 1/5
+11402/11402 [==============================] - 47s 4ms/step - loss: 0.4275 - accuracy: 0.7859 - categorical_accuracy: 0.7859 - precision_15: 0.7844 - recall_11: 0.7864
+Epoch 2/5
+11402/11402 [==============================] - 45s 4ms/step - loss: 0.4197 - accuracy: 0.7898 - categorical_accuracy: 0.7898 - precision_15: 0.7901 - recall_11: 0.7895
+Epoch 3/5
+11402/11402 [==============================] - 35s 3ms/step - loss: 0.4179 - accuracy: 0.7907 - categorical_accuracy: 0.7907 - precision_15: 0.7908 - recall_11: 0.7905
+Epoch 4/5
+11402/11402 [==============================] - 35s 3ms/step - loss: 0.4161 - accuracy: 0.7918 - categorical_accuracy: 0.7918 - precision_15: 0.7917 - recall_11: 0.7916
+Epoch 5/5
+11402/11402 [==============================] - 31s 3ms/step - loss: 0.4147 - accuracy: 0.7923 - categorical_accuracy: 0.7923 - precision_15: 0.7924 - recall_11: 0.7924
+              precision    recall  f1-score   support
+
+           0       0.90      0.70      0.79     31670
+           1       0.71      0.90      0.79     25337
+
+    accuracy                           0.79     57007
+   macro avg       0.80      0.80      0.79     57007
+weighted avg       0.81      0.79      0.79     57007
+
+F1: 0.7931118117875332
+F1 rata-rata model: 0.7939904783241912
+
+
+
+=== Checking on Data Testing
+              precision    recall  f1-score   support
+
+           0       0.98      0.70      0.82     41778
+           1       0.29      0.88      0.44      5861
+
+    accuracy                           0.73     47639
+   macro avg       0.64      0.79      0.63     47639
+weighted avg       0.89      0.73      0.77     47639
