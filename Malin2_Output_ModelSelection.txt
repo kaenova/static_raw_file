@@ -198,7 +198,11 @@ weighted avg       0.90      0.64      0.70     47639
 // =================
 // Gaussian Naive Bayes "Hypothesis" Best Feature
 // =================
+
+=== Train using Folds
 Folds Number: 1
+[INFO] Model terinisialisasi!
+[INFO] Model sudah berhasil belajar
               precision    recall  f1-score   support
 
            0       0.97      0.59      0.73     31671
@@ -210,6 +214,8 @@ weighted avg       0.83      0.76      0.76     57007
 
 F1: 0.7850081718792149
 Folds Number: 2
+[INFO] Model terinisialisasi!
+[INFO] Model sudah berhasil belajar
               precision    recall  f1-score   support
 
            0       0.97      0.59      0.74     31671
@@ -221,6 +227,8 @@ weighted avg       0.83      0.76      0.76     57007
 
 F1: 0.7860246772607605
 Folds Number: 3
+[INFO] Model terinisialisasi!
+[INFO] Model sudah berhasil belajar
               precision    recall  f1-score   support
 
            0       0.97      0.59      0.73     31671
@@ -232,6 +240,8 @@ weighted avg       0.83      0.76      0.76     57007
 
 F1: 0.7857233381914962
 Folds Number: 4
+[INFO] Model terinisialisasi!
+[INFO] Model sudah berhasil belajar
               precision    recall  f1-score   support
 
            0       0.97      0.59      0.74     31670
@@ -243,6 +253,8 @@ weighted avg       0.83      0.77      0.76     57007
 
 F1: 0.7876333841463415
 Folds Number: 5
+[INFO] Model terinisialisasi!
+[INFO] Model sudah berhasil belajar
               precision    recall  f1-score   support
 
            0       0.97      0.59      0.73     31670
@@ -266,7 +278,6 @@ F1 rata-rata model: 0.7856008028117488
     accuracy                           0.64     47639
    macro avg       0.62      0.78      0.57     47639
 weighted avg       0.90      0.64      0.70     47639
-
 
 // =================
 // Decision Tree All Feature
